@@ -1,0 +1,38 @@
+# -----------------------------
+# Core LLM + LangChain Packages
+# -----------------------------
+
+langchain==0.3.26                 # Main LangChain framework for building LLM pipelines
+langchain-community==0.3.26       # Community integrations (tools, loaders, embeddings)
+langchain-openai==0.3.24          # OpenAI models + embeddings wrapper for LangChain
+langchain-pinecone==0.2.8         # Pinecone vector DB integration for RAG workflows
+
+# -----------------------------
+# Embeddings + NLP Models
+# -----------------------------
+
+sentence-transformers==4.1.0      # Transformer-based embedding models (BERT, MiniLM, etc.)
+
+# -----------------------------
+# PDF + Document Processing
+# -----------------------------
+
+pypdf==5.6.1                      # Extract text from PDFs for indexing or RAG
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+
+python-dotenv==1.1.0              # Load API keys from .env file
+
+# -----------------------------
+# Web Framework (Backend API)
+# -----------------------------
+
+flask==3.1.1                      # Lightweight backend server for chatbot API/UI
+
+# -----------------------------
+# Local Package (Editable Mode)
+# -----------------------------
+
+-e .                              # Install the current project in editable/development mode
